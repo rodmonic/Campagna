@@ -4,7 +4,7 @@
 
 This is an Excel add-in written in C# using the [Excel-Dna](https://excel-dna.net/) library that enables the running of monte-carlo analysis within Excel.
 
-It was designed to give robust excel monte carlo analysis without using VBA and without too much complication.
+It was designed to generate robust Excel Monte Carlo analysis without using VBA.
 
 ## Initial Experimentation within VBA
 
@@ -34,7 +34,7 @@ The move to C# was made possible by the brilliant Excel-Dna library. This is an 
 
 I have mirrored the functionality of @Risk so if you have used that before it should be familiar. The tool has the following functions implemented in Excel.
 
-There are two types of function **Input** and **Output** the input functions generate monte carlo data for the relevant distribution which is stored in memory and the output functions perform that operation on the underlying slice data.
+There are two types of function **Input** and **Output** the input functions generate Monte Carlo data for the relevant distribution which is stored in memory and the output functions perform that operation on the underlying slice data.
 
 ### Input Functions
 
