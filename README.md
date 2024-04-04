@@ -39,20 +39,25 @@ There are two types of function **Input** and **Output** the input functions gen
 ### Input Functions
 
 #### CampagnaInputTriangular
+
 This function Generates a [triangular distribution](https://en.wikipedia.org/wiki/Triangular_distribution) with given minimum, most likely and max.
 
 #### CampagnaInputBernoulli
+
 Generates a [Bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution) with a given probability.
 
 ### Output Functions
 
 #### CampagnaOutputSingleSlice
+
 Returns the kth data slice of the distribution in order that they were sampled. This is useful for debugging.
 
 #### CampagnaOutputMean
+
 Calculates the arithmetic mean of the given distribution
 
 #### CampagnaOutputPercentile
+
 Returns the percentile of the given distribution
 
 ### Model Run
